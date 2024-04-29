@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.header{
+    height: 10vh;
+    width: 100%;
+    background-color: #17252A;
+    color: #DEF2F1;
+}
+
+.aside{
+    height: 80vh;
+    width: 20%;
+    background-color: #DEF2F1;
+    float: left;
+    color: #17252A;
+}
+
+.main{
+    height: 80vh;
+    width: 80%;
+    background-color: #FEFFFF;
+    float: right;
+    color: #17252A;
+}
+
+.footer{
+    height: 10vh;
+    width: 100%;
+    background-color: #17252A;
+    clear: both;
+    color: #DEF2F1;
+}
+
+div, footer, header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
